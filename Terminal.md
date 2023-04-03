@@ -19,5 +19,13 @@ The command line typically presents you with a prompt. As you type, it will be d
 - cp for Copy a file or directory.
 - mv for Move a file or directory
 - rm for Delete a file
-### NO UNDO
-The Linux command line does not have an undo feature. Perform destructive actions carefully.
+- how to make files , remove them and create directories and also removing them .
+
+## Permissions
+how you can make strict permissions , for groups and individualls , and also , read write and excute
+
+## Process Management
+how can you stop or kill or check on what processs is ther at the current moment
+
+## Filters
+how can you play with the current text, lines and words .
