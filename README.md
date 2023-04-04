@@ -3,7 +3,7 @@
 ## In here I'll be adding my learning Journey
 ## advanced software develpoment 401
 
-| `**</>Topic**`             | Summary 
+| **</>Topic**              | *Summary*
 | :---                      |   :----:   
 |SQL                        | [SQL Practice](./Sql.md)
 |Terminal                   | [Terminal](./Terminal.md)
