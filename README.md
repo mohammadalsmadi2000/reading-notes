@@ -14,4 +14,5 @@
 |data strucure              | [data strucure](./data_strucure.md)
 |Engineering Readings       | [Engineering Readings](./Engineering.md)
 |Testing and Modules        | [Testing and Modules](./Testing.md)
+|FileIO & Exceptions        | [FileIO & Exceptions](./FileIO.md)
 
