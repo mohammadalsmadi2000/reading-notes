@@ -15,4 +15,5 @@
 |Engineering Readings       | [Engineering Readings](./Engineering.md)
 |Testing and Modules        | [Testing and Modules](./Testing.md)
 |FileIO & Exceptions        | [FileIO & Exceptions](./FileIO.md)
+|Classes, Objects, Recursion, and Pytest Fixtures Reading Notes       | [Class 04](./Class04.md)
 
