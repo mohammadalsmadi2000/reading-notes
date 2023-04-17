@@ -67,4 +67,3 @@ probability = count / num_trials
 print("Probability of rolling a 6:", probability)
 
 ```
-In this example, we use the randint function from the random module to simulate a dice roll. We generate a random integer between 1 and 6, inclusive. To calculate the probability of rolling a specific number (in this case, 6), we use a loop to simulate a large number of
