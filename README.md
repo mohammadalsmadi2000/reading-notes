@@ -18,4 +18,5 @@
 |Classes, Objects, Recursion, and Pytest Fixtures Reading Notes       | [Class 04](./Class04.md)
 |Linked Lists        | [Linked Lists](./Linked.md)
 |Ten Thousand Game 1        | [Ten Thousand Game 1](./Ten.md)
+|Ten Thousand Game 2        | [Ten Thousand Game 2](./Ten2.md)
 
