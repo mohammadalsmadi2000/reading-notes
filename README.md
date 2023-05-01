@@ -20,4 +20,4 @@
 |Ten Thousand Game 1        | [Ten Thousand Game 1](./Ten.md)
 |Ten Thousand Game 2        | [Ten Thousand Game 2](./Ten2.md)
 |class 08        | [class 08](./class08.md)
-
+|class 09        | [class 09](./class09.md)
