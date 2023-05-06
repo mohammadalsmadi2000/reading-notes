@@ -22,3 +22,4 @@
 |class 08        | [class 08](./class08.md)
 |class 09        | [class 09](./class09.md)
 |class 10        | [class 10](./class10.md)
+|class 11        | [class 11](./class11.md)
