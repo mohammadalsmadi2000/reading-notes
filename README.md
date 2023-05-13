@@ -24,3 +24,4 @@
 |class 10        | [class 10](./class10.md)
 |class 11        | [class 11](./class11.md)
 |Pandas       | [Pandas](./Pandas.md)
+|Linear Regressions       | [Linear Regressions](./Regressions.md)
