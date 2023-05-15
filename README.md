@@ -25,3 +25,4 @@
 |class 11        | [class 11](./class11.md)
 |Pandas       | [Pandas](./Pandas.md)
 |Linear Regressions       | [Linear Regressions](./Regressions.md)
+|Data Visualization      | [Data Visualization](./Visualization.md)
