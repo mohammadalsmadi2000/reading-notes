@@ -26,3 +26,4 @@
 |Pandas       | [Pandas](./Pandas.md)
 |Linear Regressions       | [Linear Regressions](./Regressions.md)
 |Data Visualization      | [Data Visualization](./Visualization.md)
+|Trees      | [Trees](./Trees.md)
