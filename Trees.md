@@ -1,6 +1,11 @@
 # Trees
 Trees are non-linear data structures that represent nodes connected by edges. Each tree consists of a root node as the Parent node, and the left node and right node as Child nodes.
 
+## Why Trees Matter
+Trees provide an organized and hierarchical way to store and represent data. They are particularly useful in scenarios where data has a natural hierarchical structure, such as file systems, organization charts, or family trees. By understanding trees, I can gain insights into efficient data organization, searching, and manipulation techniques that can be applied to solve real-world problems.
+
+
+
 ## Binary tree
 A tree whose elements have at most two children is called a binary tree. Each element in a binary tree can have only two children. A node’s left child must have a value less than its parent’s value, and the node’s right child must have a value greater than its parent value.
 
@@ -81,64 +86,9 @@ root.insert(19)
 root.PrintTree()
 ```
 
-## Searching
-While searching for a value in the tree, we need to traverse the node from left to right and with a parent.
-
-```
-class Node:
-
-    def __init__(self, data):
-
-        self.left = None
-        self.right = None
-        self.data = data
-
-# Insert method to create nodes
-    def insert(self, data):
-
-        if self.data:
-            if data < self.data:
-                if self.left is None:
-                    self.left = Node(data)
-                else:
-                    self.left.insert(data)
-            elif data > self.data:
-                if self.right is None:
-                    self.right = Node(data)
-                else:
-                    self.right.insert(data)
-        else:
-            self.data = data
-# findval method to compare the value with nodes
-
-    def findval(self, lkpval):
-        if lkpval < self.data:
-            if self.left is None:
-                return str(lkpval)+" is not Found"
-            return self.left.findval(lkpval)
-        elif lkpval > self.data:
-            if self.right is None:
-                return str(lkpval)+" is not Found"
-            return self.right.findval(lkpval)
-        else:
-            return str(self.data) + " is found"
-# Print the tree
-
-    def PrintTree(self):
-        if self.left:
-            self.left.PrintTree()
-        print(self.data),
-        if self.right:
-            self.right.PrintTree()
-
-root = Node(27)
-root.insert(14)
-root.insert(35)
-root.insert(31)
-root.insert(10)
-root.insert(19)
-print(root.findval(7))
-print(root.findval(14))
-```
-
-
+## Things I want to know more about
+How are trees used in database systems?
+Can trees be used to represent hierarchical data in graphical user interfaces (GUIs)?
+Are there any advanced tree structures or algorithms that are commonly used in real-world applications?
+What are the trade-offs between different types of trees, such as binary search trees versus balanced trees?
+Are there any practical examples or case studies where tree structures have significantly improved performance or efficiency in solving complex problems?
