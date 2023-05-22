@@ -27,3 +27,4 @@
 |Linear Regressions       | [Linear Regressions](./Regressions.md)
 |Data Visualization      | [Data Visualization](./Visualization.md)
 |Trees      | [Trees](./Trees.md)
+|Serverless Functions     | [Serverless Functions](./Serverless.md)
