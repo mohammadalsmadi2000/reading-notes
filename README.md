@@ -28,3 +28,4 @@
 |Data Visualization      | [Data Visualization](./Visualization.md)
 |Trees      | [Trees](./Trees.md)
 |Serverless Functions     | [Serverless Functions](./Serverless.md)
+|Web Scraping    | [Web Scraping](./Scraping.md)
