@@ -29,3 +29,4 @@
 |Trees      | [Trees](./Trees.md)
 |Serverless Functions     | [Serverless Functions](./Serverless.md)
 |Web Scraping    | [Web Scraping](./Scraping.md)
+|Cryptography   | [Cryptography](./Cryptography.md)
