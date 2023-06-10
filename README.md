@@ -31,3 +31,4 @@
 |Web Scraping    | [Web Scraping](./Scraping.md)
 |Cryptography   | [Cryptography](./Cryptography.md)
 |Automation   | [Automation](./Automation.md)
+|Intro to Django   | [Intro to Django](./Django.md)
