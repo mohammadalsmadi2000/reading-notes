@@ -35,3 +35,5 @@
 |Django Models   | [Django Models](./Models.md)
 |Django CRUD and Forms| [Django CRUD and Forms](./CRUD.md)
 |Django Custom User| [Django Custom User](./Custom.md)
+|Hashtables| [Hashtables](./Hashtables.md)
+
