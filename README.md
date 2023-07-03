@@ -37,4 +37,4 @@
 |Django Custom User| [Django Custom User](./Custom.md)
 |Hashtables| [Hashtables](./Hashtables.md)
 |Django REST Framework & Docker| [Django REST Framework & Docker](./Docker.md)
-
+|Permissions & Postgresqlr| [Permissions & Postgresql](./Postgresql.md)
