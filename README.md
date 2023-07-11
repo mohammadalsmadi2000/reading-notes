@@ -39,3 +39,4 @@
 |Django REST Framework & Docker| [Django REST Framework & Docker](./Docker.md)
 |Permissions & Postgresqlr| [Permissions & Postgresql](./Postgresql.md)
 |Authentication & Production Server| [Authentication & Production Server](./Authentication.md)
+|API Deployment| [API Deployment](./API.md)
