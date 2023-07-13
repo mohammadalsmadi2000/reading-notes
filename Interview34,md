@@ -21,20 +21,33 @@ Algorithm:
 Code:
 def find_most_common_word(book):
     word_counts = {}
-    book = book.lower()
-    book = ''.join(c for c in book if c.isalnum() or c.isspace())
-    words = book.split()
+
+    # Remove punctuation and convert to lowercase while splitting into words
+    words = ''
+    for c in book:
+        if c.isalnum() or c.isspace():
+            words += c.lower()
+        elif c.isspace() and words[-1:].isalnum():
+            words += ' '
+
+    # Split the book into words
+    words = words.split()
+
+    # Count the occurrences of each word
     for word in words:
         if word in word_counts:
             word_counts[word] += 1
         else:
             word_counts[word] = 1
+
+    # Find the word with the maximum count
     max_word = ""
     max_count = 0
     for word, count in word_counts.items():
         if count > max_count:
             max_word = word
             max_count = count
+
     return max_word
 
 Test Cases:
