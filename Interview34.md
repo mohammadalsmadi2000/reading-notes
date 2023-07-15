@@ -5,7 +5,7 @@ Input: "Taco cat ate a taco"
 Output: "taco"
 
 Input: "No. Try not. Do or do not. There is no try."
-Output: "No"
+Output: "No" 
 
 Algorithm:
 1. Initialize an empty dictionary for word counts.
@@ -19,10 +19,11 @@ Algorithm:
 7. Return the word with the maximum count.
 
 Code:
+```
 def find_most_common_word(book):
     word_counts = {}
 
-    # Remove punctuation and convert to lowercase while splitting into words
+   
     words = ''
     for c in book:
         if c.isalnum() or c.isspace():
@@ -30,17 +31,17 @@ def find_most_common_word(book):
         elif c.isspace() and words[-1:].isalnum():
             words += ' '
 
-    # Split the book into words
+    
     words = words.split()
 
-    # Count the occurrences of each word
+   
     for word in words:
         if word in word_counts:
             word_counts[word] += 1
         else:
             word_counts[word] = 1
 
-    # Find the word with the maximum count
+ 
     max_word = ""
     max_count = 0
     for word, count in word_counts.items():
@@ -49,7 +50,7 @@ def find_most_common_word(book):
             max_count = count
 
     return max_word
-
+```
 Test Cases:
 - find_most_common_word("In a galaxy far far away")
   Expected Output: "far"
